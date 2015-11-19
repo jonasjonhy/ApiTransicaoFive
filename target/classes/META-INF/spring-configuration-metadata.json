@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "spring.new",
+      "type": "javax.sql.DataSource",
+      "sourceType": "py.com.datapar.integracao.ConfiguracaoNovo",
+      "sourceMethod": "public javax.sql.DataSource primaryDataSource() "
+    },
+    {
+      "name": "spring.old",
+      "type": "javax.sql.DataSource",
+      "sourceType": "py.com.datapar.integracao.ConfiguracaoOld",
+      "sourceMethod": "public javax.sql.DataSource primaryDataSource() "
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
